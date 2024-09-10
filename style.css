@@ -3,53 +3,52 @@ html {
   width: 100%;
 }
 body{
-background-color: #F9DBBA;
-  
+  background-color: #1E2A5E;
 }
-.inicio{
-display:flex;
-justify-content:center;
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.inicio img{
-width: 500px;
-margin:50px;
-}
-.inicio p{
+.titulo p{
   font-size: 50px;
-  color: #5B99C2;
   font-weight: bold;
-
-  
+  color: #7C93C3; 
+  text-align: center;
 }
-.ENLACE{
-display: flex;
-justify-content: center;
-  
+.imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sub{
+.imagen img{
+  height: 250px;
+  margin:20px;
+}
+.imagen p{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px;
+  color: #7C93C3;
+  text-align: justify;
+}
+.imagen ul{
+  font-size: 20px;
+  color: #EB9AC0;
+  font-weight: bold;  
+}
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link a{
   font-size: 30px;
   font-weight: bold;
-  margin: 20px;
-  color: #1A4870;
+  color: #55679C;  
 }
-.sub p{
-display: flex;
-justify-content: left;
-  
-}
-.content1 p{
-font-size: 30px;
-  margin-left:30px ;
-  margin-right: 30px;
-  color: #1F316F;
-font-weight: bold;
-
-}
-.content1 img{
-width: 500px;
-  margin-left: 30px;
-  margin-right: 30px;
-
-
-  
+ima1.pe{
+height: 100px;
+font-size: 100px;
+  color: #55679C ;
 }
